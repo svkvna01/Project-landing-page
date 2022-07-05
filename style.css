@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;  
+    gap: 8px;
+}
+
+li {
+    list-style: none;
+}
