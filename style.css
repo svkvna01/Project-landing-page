@@ -1,24 +1,37 @@
+html {
+    height: 100%;
+}
+
 body {
-    height: 100vh;
+    min-height: 100%;
     margin: 0;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    
 }
 
 .body {
     height: 100%;
 }
 
-header {
+.header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
     display: flex;
     flex-direction: row;  
     gap: 8px;
+    margin: 0 32px;
+
+
 }
 
 li {
@@ -36,6 +49,7 @@ li {
     font-size: 16px;
     align-items: start;
     padding: 16px;
+    margin-top: 16px;
 }
 
 .secondaryText {
@@ -49,13 +63,8 @@ button {
   border-radius: 4px;
   font-size: 18px;
   padding: 0 16px;
-
-}
-
-img{
-    display: flex;
-    width: 40%;
-    height: 30%;
+  margin: 16px 0;
+  flex : 1 1 auto;
 }
 
 .halfhead {
@@ -73,12 +82,99 @@ img{
     align-items: start;
 }
 
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 100px;
+    padding-top: 16px;
+}
+
+.infoHeader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards {
+    display:flex ;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+img {
+    width: 60%;
+    height: auto;
+    margin-top: 16px;
+}
+
+
+.container3 {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    margin:16px 0;
+    gap: 16px;
+    background-color: #E5E7EB;
+    width: 100%;
+    padding: 100px;
+    
+}
+
+.source {
+    display: flex;
+    margin-left: 280px;
+}
+.quote {
+   font-size: 36px; 
+   font-style: italic;
+   font-weight: lighter;
+   color: #1F2937;
+}
+
+.container4{
+    background-color: #3882f6;
+    margin: 32px 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.signtext {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    padding-left: 8px;
+}
+
+.button2 {
+    text-decoration: none;
+    color: #f9faf8;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    border-color: #f9faf8;
+}
+
+
 footer {
     background-color: #1F2937;
     color:#E5E7EB ;
-    display: flex;
+    display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
     padding: 32px;
-
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
 }
