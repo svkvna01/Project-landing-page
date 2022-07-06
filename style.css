@@ -79,5 +79,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 16px;
+    padding: 32px;
+
 }
