@@ -1,9 +1,13 @@
-.body {
+body {
     height: 100vh;
     margin: 0;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+.body {
+    height: 100%;
 }
 
 header {
@@ -49,6 +53,7 @@ button {
 }
 
 img{
+    display: flex;
     width: 40%;
     height: 30%;
 }
@@ -66,4 +71,13 @@ img{
     padding: 16px;
     width: 100%;
     align-items: start;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#E5E7EB ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 16px;
 }
